@@ -1,0 +1,107 @@
+#root {
+ 
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  /*padding: 2rem;
+  text-align: center;*/
+  /*background-color: aqua;*/
+  display: flex;
+  justify-content: center;
+  /*background-image: url("img/pozadina1.avif");*/
+  background-size:cover;
+  background-position: 'center';
+  background-repeat: no-repeat;
+  /*https://www.pixelstalk.net/wp-content/uploads/images6/Travel-Wallpaper-Free-Download.jpg*/
+  /*background-image: url("img/pozz.jpg");*/
+  
+}
+#Enjoy{
+  text-align: center;
+}
+
+#pozadina{
+  background-size:cover;
+  background-position: 'center';
+  background-repeat: no-repeat;
+  background-image: url("img/TravelAirplane.jpg");
+  min-height: 100%;
+}
+
+#UserSve{
+  margin: auto auto;
+  /*width: 90%;
+  height:80%;*/
+  width: 100%;
+  /*border-radius: 10px;
+  border:1px solid black;*/
+  
+  background-color: rgb(218, 172, 115,0.05);
+  display: flex;
+  flex-direction: column;
+  
+  /*position: relative;*/
+}
+
+
+#AllTrips{
+  /*background-color: aquamarine;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 700px;
+  /*background: linear-gradient(to bottom,#FFCC99, #FFEDCC);
+  
+  
+  /*background-color: rgb(23, 23, 67);*/
+  /*background-color: lightgoldenrodyellow;*/
+  
+}
+
+#trips{
+  /*margin-top:-50px;
+  
+  align-self: center;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Info{
+  
+  height: 100vh;
+  min-width: 100%;
+  background-image: url("img/TravelAirplane.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+#foot {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+ 
+}
+
+#about, #contact {
+  background-color: rgba(0, 0, 0, 0.6); /* Prozirna pozz bocxa */
+  padding: 20px;
+  width: 45%; /* Širina boxeva */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sjenli */
+  border-radius: 20px;
+}
+
+#about h2, #contact h2 {
+  margin-top: 0;
+  color: whitesmoke;
+}
+
+#about p, #contact p {
+  line-height: 1.5;
+  color: whitesmoke;
+}
+

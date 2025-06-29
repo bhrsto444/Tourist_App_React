@@ -1,0 +1,88 @@
+
+#FormTrip{
+    display:flex;
+    flex-direction: column;
+    background-color: hsl(33, 100%, 88%,0.3);
+    
+    min-width: 300px;
+   
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-decoration: #ccc;
+    
+    
+    
+    
+}
+.item{
+    /*margin: 10px 0 10px 0;*/
+    padding: 10px;
+    font-size: 16px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    align-self: center;
+    text-decoration: #ccc;
+    color: white;
+    
+}
+
+  input, .itemI{
+    
+    padding: 5px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .item-select {
+    
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    cursor: pointer;
+  }
+  /*TABLICA ALL TRIPS*/
+  table {
+    
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    
+  }
+
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #D4B483; /* Warm border color */
+  }
+
+  th {
+    background-color: #F4A261; /* Warm header background */
+    color: #FFF;
+  }
+
+  tr:nth-child(even) {
+    background-color: #FFE8D6; /* Warm even row background */
+  }
+
+  tr:hover {
+    background-color: #FFDAB9; /* Highlight row on hover */
+  }
+
+  caption {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    color: #d95230; /* Warm caption color */
+  }
+  
+  .btnEdit:hover{
+    background-color: lightsalmon;
+  }
+  .btnTrash:hover{
+    background-color: rgb(236, 13, 13);
+  }
