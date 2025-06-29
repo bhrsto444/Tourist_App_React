@@ -2,6 +2,14 @@
 
 ![image](https://github.com/user-attachments/assets/1582f72d-9aa9-4f6f-ae74-5bb6d2591025)
 
+
+![image](https://github.com/user-attachments/assets/a046b6bb-87eb-453b-a60d-5f96243738ce)
+
+
+![image](https://github.com/user-attachments/assets/7bc66c6f-4101-4179-9fec-4fadaa5d568a)
+
+
+
 ## Overview
 
 TouristApp is a full-stack web application designed to help users plan and manage their travel adventures. Built with React for the frontend and Node.js/Express for the backend, this application allows users to create accounts, plan trips, and manage their travel itineraries.
